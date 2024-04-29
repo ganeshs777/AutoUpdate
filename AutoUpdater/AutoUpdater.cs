@@ -52,7 +52,7 @@ namespace AutoUpdater
                 {
                     Console.WriteLine("An error occurred while checking for updates: " + ex.Message);
                 }
-                Console.ReadLine();
+                //Console.ReadLine();
             }
             catch (Exception ex)
             {

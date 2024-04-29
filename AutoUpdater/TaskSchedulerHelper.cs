@@ -66,7 +66,10 @@ namespace AutoUpdater
                 TaskSchedulerHelper.CreateDailyTask(taskName, "C:\\Program Files\\AutoUpdater\\AutoUpdater.exe");
             }
             else
+            {
                 Console.WriteLine("AutoUpdaterSystem1Task is already exists in Task Scheduler!");
+                DeleteTask(taskName);
+            }
 
         }
 
