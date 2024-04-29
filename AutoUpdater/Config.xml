@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoUpdaterConfig>
+	<Application>
+		<Name>System1</Name>
+		<InstalledPath>C:\Program Files\System1</InstalledPath>
+		<UpdateCheckUrl>http://example.com/update.xml</UpdateCheckUrl>
+		<UpdatePackageUrl>http://example.com/update.xml</UpdatePackageUrl>
+	</Application>
+	<Security>
+		<Username>cxd5y8Py22KYS35Aqf+cJg==</Username>
+		<Password>cxd5y8Py22KYS35Aqf+cJg==</Password>
+		<Key>eGCWR0iQoeh+zzd437dz7Rhfwbf737waF+zkwtJQPss=</Key>
+		<IV>jSdGd98R2gwIMSTvTHYG4A==</IV>
+	</Security>
+</AutoUpdaterConfig>
